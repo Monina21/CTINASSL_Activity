@@ -1,0 +1,109 @@
+
+/* General Page Styling */
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+  letter-spacing: 5px;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Image */
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Navbar */
+.w3-top {
+  z-index: 1000;
+}
+
+.w3-top a {
+  text-decoration: none;
+}
+
+/* Main Content */
+.w3-content {
+  margin: auto;
+}
+
+/* About and Menu Sections */
+#about,
+#menu {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* Section Images */
+#about img,
+#menu img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Contact Section */
+#contact {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#contact input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+#contact input:focus {
+  outline: none;
+  border-bottom: 2px solid #555;
+}
+
+/* Send Message Button */
+#contact button {
+  cursor: pointer;
+  border: none;
+  padding: 12px 20px;
+  font-family: inherit;
+}
+
+#contact button:hover {
+  background-color: #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .w3-top {
+    padding: 8px;
+  }
+
+  #about,
+  #menu,
+  #contact {
+    padding: 32px 16px;
+  }
+
+  h1 {
+    letter-spacing: 3px;
+  }
+}
